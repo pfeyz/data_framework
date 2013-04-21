@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<testsuites>
+<testsuite errors="0" failures="1" name="test_google_home.MyAccountTests-20130421164819" tests="2" time="11.655">
+	<testcase classname="test_google_home.MyAccountTests" name="test_home_page_click_news" time="5.956"/>
+	<testcase classname="test_google_home.MyAccountTests" name="test_sign_in_click" time="5.699">
+		<failure message="Traceback (most recent call last):
+  File &quot;/root/virtualenvs/framework/test_framework/google/test_google_home.py&quot;, line 25, in test_sign_in_click
+    news.sign_in_button().click()
+  File &quot;/root/virtualenvs/framework/test_framework/shared/pages/news_page.py&quot;, line 13, in sign_in_button
+    return get_element(text='gb_70')
+  File &quot;/root/virtualenvs/framework/local/lib/python2.7/site-packages/sst/actions.py&quot;, line 988, in get_element
+    id=id, text=text, text_regex=text_regex, **kwargs)
+  File &quot;/root/virtualenvs/framework/local/lib/python2.7/site-packages/sst/actions.py&quot;, line 965, in get_elements
+    _raise(msg)
+  File &quot;/root/virtualenvs/framework/local/lib/python2.7/site-packages/sst/actions.py&quot;, line 118, in _raise
+    raise AssertionError(msg)
+AssertionError: Could not identify elements: 0 elements found
+" type="_StringException">
+<![CDATA[_StringException: Traceback (most recent call last):
+  File "/root/virtualenvs/framework/test_framework/google/test_google_home.py", line 25, in test_sign_in_click
+    news.sign_in_button().click()
+  File "/root/virtualenvs/framework/test_framework/shared/pages/news_page.py", line 13, in sign_in_button
+    return get_element(text='gb_70')
+  File "/root/virtualenvs/framework/local/lib/python2.7/site-packages/sst/actions.py", line 988, in get_element
+    id=id, text=text, text_regex=text_regex, **kwargs)
+  File "/root/virtualenvs/framework/local/lib/python2.7/site-packages/sst/actions.py", line 965, in get_elements
+    _raise(msg)
+  File "/root/virtualenvs/framework/local/lib/python2.7/site-packages/sst/actions.py", line 118, in _raise
+    raise AssertionError(msg)
+AssertionError: Could not identify elements: 0 elements found
+
+]]>		</failure>
+	</testcase>
+	<system-out>
+<![CDATA[None
+None
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
+</testsuites>
